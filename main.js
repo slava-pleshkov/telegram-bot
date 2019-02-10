@@ -1,0 +1,10 @@
+require('dotenv').config()
+const Telegraf = require('telegraf')
+
+const bot = new Telegraf(process.env.API_TOKEN)
+bot.start((ctx) => ctx.reply('Welcome!'))
+bot.help((ctx) => ctx.reply('Send me a sticker'))
+bot.hears('hi', (ctx) => ctx.reply('Hello'))
+bot.hears('author', (ctx) => ctx.reply('Slava Pleshkov <mail@slavapleshkov.com>'))
+bot.hears('mysite', (ctx) => ctx.reply('https://slavapleshkov.com/'))
+bot.launch()
