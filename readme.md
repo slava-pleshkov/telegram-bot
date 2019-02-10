@@ -5,7 +5,7 @@
     <a href="https://t.me/SlavaPleshkovBot" target="_blank">
         <img src="https://github.com/slava-pleshkov/telegram-bot/blob/master/public/images/telegram-bot.png?raw=true" height="100px">
     </a>
-    <h1 align="center">Telegram bot Slava Pleshkov Bot</h1>
+    <h1 align="center">Telegram bot @SlavaPleshkovBot</h1>
     <br>
 </p>
 <p align="center">The telegram bot was created using Node.js</p>
